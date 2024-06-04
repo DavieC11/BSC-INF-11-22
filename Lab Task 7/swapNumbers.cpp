@@ -9,7 +9,7 @@ tuple<int, int> SwapNumbers(int varA, int varB) {
 
 int main() {
     int varA = 25; // Initialize varA
-    int varB = 100; // Initialize varB
+    int varB = 100; // Initialize varBs
     
     cout << "\nvarA before swap: " << varA << endl; // Outputs: 25
     cout << "varB before swap: " << varB << endl;  // Outputs: 100 
@@ -17,7 +17,7 @@ int main() {
     // Call the SwapNumbers function and get the swapped values
     tie(varA, varB) = SwapNumbers(varA, varB);
 
-    cout << "\nvarA after swap: " << varA << endl;  // Outputs: 100
+    cout << "\nvarA after swap: " << varA << endl;  // Outputs: 100git
     cout << "varB after swap: " << varB << "\n" << endl; // Outputs: 25
     
     return 0; 
